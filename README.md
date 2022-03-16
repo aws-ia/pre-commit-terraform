@@ -1,6 +1,6 @@
 # Collection of git hooks for Terraform to be used with [pre-commit framework](http://pre-commit.com/)
 
-## Note, this fork is temporary, pending approval of [this PR](https://github.com/antonbabenko/pre-commit-terraform/pull/347).
+## Note, this fork is temporary, pending approval of [this PR](https://github.com/antonbabenko/pre-commit-terraform/pull/347) and [this PR](https://github.com/antonbabenko/pre-commit-terraform/pull/352).
 
 [![Github tag](https://img.shields.io/github/tag/antonbabenko/pre-commit-terraform.svg)](https://github.com/antonbabenko/pre-commit-terraform/releases) ![maintenance status](https://img.shields.io/maintenance/yes/2021.svg) [![Help Contribute to Open Source](https://www.codetriage.com/antonbabenko/pre-commit-terraform/badges/users.svg)](https://www.codetriage.com/antonbabenko/pre-commit-terraform)
 
