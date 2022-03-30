@@ -139,6 +139,11 @@ function terraform_validate_ {
         echo
       fi
 
+      if [ -n "${TF_IN_AUTOMATION}" ]; then
+        test -d .terraform && rm -rf .terraform
+        test -f .terraform.lock.hcl && rm -rf .terraform.lock.hcl
+      fi
+
       popd > /dev/null
     fi
   done
